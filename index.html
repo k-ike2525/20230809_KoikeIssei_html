@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACHTECH</title>
+</head>
+<body>
+
+<!-- ホーム -->
+<header>
+    <h1>株式会社TECH</h1>
+     <nav id="home">
+       <ul>
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#info">企業情報</a></li>
+        <li><a href="#about">会社概要</a></li>
+        <li><a href="#question">よくある質問</a></li>
+        <li><a href="#contact">お問あわせ</a></li>
+       </ul>
+     </nav>
+</header>
+
+<!-- 企業情報 -->
+<section id="info">
+    <table >
+     <tr><img src="img/mv.png" alt="mv.png">
+     <p>最新のテクノロジーで<em>社会問題</em>を解決</p></tr>
+    </table>
+</section>
+
+<!-- 会社概要 -->
+<section id="about">
+<table >
+    <h2>会社概要</h2>   
+    <tr><th>会社名</th><td>株式会社TECH</td></tr>
+    <tr><th>代表者</th><td>山田　太郎</td></tr>
+    <tr><th>所在地</th><td>東京都渋谷区神宮前</td></tr>
+    <tr><th>設立</th><td>2019/07/17</td></tr>
+    <tr><th>従業員数</th><td>100人</td></tr>
+    <tr><th>資本金</th><td>1000万円</td></tr>
+</table>
+</section>
+
+<!-- お問いあわせ -->
+<section   id="contact">
+      <h2>お問い合わせ</h2>
+
+  <table>
+     <form action="detail.html" method="get">
+     <tr>
+        <td>
+         <label for="company_name">会社名</label>
+         <input type="text" name="company_name" id="company_name"/>
+        </td>
+     </tr>
+     <tr>
+      <td>
+         <label for="name">お名前</label>
+         <input type="text" name="name" id="name" />
+        </td>
+     </tr>
+     <tr>
+      <td>
+         <label for="email">メールアドレス</label>
+         <input type="text" name="email" id="email" />
+        </td>
+     </tr>
+       <tr>
+        <td>
+         <label for="textarea">お問い合わせ内容</label>
+         <textarea name="textarea" cols="60" rows="5"></textarea>
+        </td>
+     </tr>
+       <tr>
+        <td>
+         <input type="submit" value="お申し込み"/>
+         </td>
+       </tr>
+     </form>
+  </table>
+</section>
+
+<footer>
+<small>©︎ 2020 TECH inc.</small>
+</footer>
+
+</body>
+</html>
